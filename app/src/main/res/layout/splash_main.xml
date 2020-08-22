@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#1E4E57"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/dimen_15"
+        android:src="@drawable/whether1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:paddingBottom="150dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#DDB67A"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:text="Diatoz"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#BFC5ED"
+        android:text="Whether Report"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>
